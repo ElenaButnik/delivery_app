@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ffbe28;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
